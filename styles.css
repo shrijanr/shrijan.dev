@@ -1,0 +1,176 @@
+/* 
+palette: 
+raisin bg = 1A1423
+blush title = C66976
+amethyst headers = 9266BD
+pale list = EACDC2
+mountbatten pink(?) subheadings = B17490
+
+https://coolors.co/1a1423-9266bd-b17490-c66976-eacdc2
+*/
+
+@font-face {
+    font-family: 'CascadiaMonoNF';
+    src: url('assets/fonts/CascadiaMonoNF-Regular.otf') format('opentype');
+}
+
+body {
+    font-family: 'CascadiaMonoNF', sans-serif;
+    background-color: #221a2e; 
+    margin: 0;
+    padding: 0;
+    color: #EACDC2; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #221a2e;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+}
+
+.intro-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.intro-list li {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 0px;
+    color: #EACDC2;
+}
+
+section {
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0; 
+    color: #9266BD;
+}
+
+.projects h3 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.projects .project-link {
+    font-size: 1em;
+    color: #EACDC2; 
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.projects .project-link:hover {
+    text-decoration: underline; 
+    color: #C66976; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 0px;
+    font-size: 1em;
+    color: #EACDC2;
+    font-weight: normal;
+}
+
+.language-section {
+    padding-left: 20px;
+    margin: 0; 
+}
+
+.language-section h4 {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #B17490; 
+}
+
+.code-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.line-numbers {
+    width: 50px;
+    background-color: #2C1F35;
+    color: #6C4F6D;
+    padding: 0px 5px;
+    text-align: right;
+    font-size: 1em;
+    line-height: 1.2em;
+    border-right: 1px solid #3A2B3A;
+}
+
+.line-number {
+    margin-bottom: 0px;
+    line-height: 1.2em;
+}
+
+.code-content {
+    padding-left: 9.99px;
+    flex: 1;
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+.content-container {
+    background-color: #291e38;
+    max-width: calc(100% - 50px);
+    margin-left: -10.5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 1em;
+    margin: 0;
+    color: #C66976;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #EACDC2;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+    color: #C66976;
+}
+
+.scale-container {
+    transform: scale(1.75) translateX(30px); /* 30 IS THE MAGIC NUMBER TO GET IT CENTERED */ 
+    transform-origin: center center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
