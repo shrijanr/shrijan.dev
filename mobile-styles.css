@@ -1,15 +1,15 @@
-/* Define the custom font */
+
 @font-face {
     font-family: 'CascadiaMonoNF';
     src: url('assets/fonts/CascadiaMonoNF-Regular.otf') format('opentype');
 }
 
-/* Apply styles */
+
 html, body {
     height: 100%;
     margin: 0;
     overflow-y: auto;
-    font-family: 'CascadiaMonoNF', monospace; /* Use the custom font here */
+    font-family: 'CascadiaMonoNF', monospace;
 }
 
 body {
@@ -104,15 +104,15 @@ h1 {
 }
 
 ul {
-    list-style-type: none; /* Remove bullet points */
-    padding-left: 20px; /* Indent list items */
+    list-style-type: none; 
+    padding-left: 20px; 
     margin: 0;
 }
 
 ul li {
     font-size: 1em;
     font-weight: normal;
-    margin-bottom: 0; /* Adjust spacing as needed */
+    margin-bottom: 0; 
     color: #EACDC2;
 }
 
@@ -153,7 +153,7 @@ h3 {
 }
 .language-section ul {
     list-style-type: none;
-    padding-left: 60px; /* Double indent for the languages */
+    padding-left: 60px;
     margin: 0;
 }
 
