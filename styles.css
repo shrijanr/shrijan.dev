@@ -33,6 +33,7 @@ body {
     transform-origin: center;
     display: flex;
     box-sizing: border-box;
+    position: static;
 }
 
 .container {
